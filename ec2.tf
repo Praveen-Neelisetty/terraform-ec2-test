@@ -1,4 +1,4 @@
-module "ec2-test" {
+module "ec2_test" {
     source = "../terraform-aws-ec2"
     instance_type = "t3.small"
 

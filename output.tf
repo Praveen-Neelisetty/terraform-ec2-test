@@ -1,7 +1,11 @@
-output "aws_instance_type" {
-    value = module.ec2-test.instance_type
+output "priavte_ip" {
+    value = module.ec2_test.private_ip
 }
 
-output "ami" {
-    value = module.ec2-test.ami
+output "public_ip" {
+    value = module.ec2_test.public_ip
+}
+
+output "instance_id" {
+    value = module.ec2_test.id
 }
